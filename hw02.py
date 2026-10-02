@@ -1,8 +1,11 @@
+# Langley Owen
+
 # Task 1.1:
 #  Complete the function "read_two_ints" below:
 #define function
 def read_two_ints():
-    #assign variables, cast them as integers, and return
+    """This function assigns variables, casts them as integers at the same time"""
+    #assign variables, integers, and return
     x = int(input("give me x: "))
     y = int(input("give me y: "))
     return x, y
@@ -10,7 +13,7 @@ def read_two_ints():
 # Task 2.1:
 #  Complete the function "compute_multadd" below:
 def compute_multadd(a, b):
-    
+    """This function calculates the nominator and denominator of an expression and completes the whole expression"""
     #calculate numerator and save as variable(mult_result), then print
     mult_result= (a * b)
     print ("mult result:", mult_result)
@@ -25,7 +28,7 @@ def compute_multadd(a, b):
 # Task 3.1:
 #  Complete the function "print_fancy" below:
 def print_fancy(a, b, ab_multadd):
-    
+    """This function prints out the input variable and multadd results in a "fancy" print"""
     #print statements
     print("****************")
     print("RESULTS:")
@@ -36,6 +39,7 @@ def print_fancy(a, b, ab_multadd):
     
 
 def main ():
+    """These instructions call the functions from each part"""
     # Task 1.2:
     #  Add one line below to call read_two_ints (note that it returns two values)
     #  the call should provide no arguments
